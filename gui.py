@@ -36,7 +36,7 @@ ExpireReason = df.iloc[9,7] #Expire Reason
 
 
 OUTPUT_PATH = Path(__file__).parent
-ASSETS_PATH = OUTPUT_PATH / Path(r"C:\\RMA Tools\\LAP_PR\\assets\\frame0")
+ASSETS_PATH = OUTPUT_PATH / Path(r"C:\\RMA Tools\\LAP_Kit\\assets\\frame0")
 
 
 def relative_to_assets(path: str) -> Path:
@@ -200,7 +200,7 @@ window = Tk()
 
 window.geometry("550x450")
 window.configure(bg = "#FF4500")
-window.iconbitmap('C:\\RMA Tools\\LAP_PR\\rmalogo.ico')
+window.iconbitmap('C:\\RMA Tools\\LAP_Kit\\rmalogo.ico')
 window.title("LAP Provision Remover v2.0")
 
 
